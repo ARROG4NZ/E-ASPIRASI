@@ -47,6 +47,10 @@
         margin: 40px 0px 80px 0px;
     }
 
+    .margin-right-panel {
+        margin: 195px 0px 195px 0px
+    }
+
     .container-custom {
         text-align: center;
     }
@@ -94,7 +98,10 @@
                 <div class=" col-5 border-custom-right" id="warna2">
                     <div class="card-body">
                         <div class="container">
-
+                            <div class="col-6 col-centered container margin-right-panel allborder-radius-custom"
+                                style="background-color: white;">
+                                <h2 style="color: black;">eASPIRASI</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
