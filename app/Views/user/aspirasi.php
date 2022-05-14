@@ -92,7 +92,7 @@
         <div class="col-10 mx-auto my-4 p-3 allborder-radius-custom" id="warna">
             <h5 class="ms-3">Lorem ipsum</h5>
             <div>
-                <img src="/app/Views/user/Group 36.jpg" />
+                <img src="/logo.jpg" />
             </div>
             <div class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab, autem quibusdam
                 suscipit, eaque ut officiis facere veritatis illo inventore deleniti minus. Nihil, delectus autem
