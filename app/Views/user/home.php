@@ -5,7 +5,6 @@
     <title>eASPIRASI</title>
     <style>
     body {
-        background: #951C21;
         background: linear-gradient(45deg, rgba(149, 28, 33, 0.69), #D1484D);
         min-height: 100%;
     }
