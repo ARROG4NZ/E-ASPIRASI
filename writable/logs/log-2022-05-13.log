@@ -1,0 +1,18 @@
+CRITICAL - 2022-05-13 23:06:23 --> Invalid file: make_aspirasi.php
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('make_aspirasi.p...')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('make_aspirasi', Array, true)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(8): view('make_aspirasi')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->coba()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-13 23:06:27 --> Invalid file: make_aspirasi.php
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('make_aspirasi.p...')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('make_aspirasi', Array, true)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(8): view('make_aspirasi')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->coba()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

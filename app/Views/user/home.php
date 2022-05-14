@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>eASPIRASI</title>
     <style>
     body {
         background: #951C21;
@@ -60,6 +61,11 @@
         margin-bottom: auto;
     }
 
+    button {
+        border-color: #D1484D;
+        border-width: 0px;
+    }
+
     h3 {
         font-family: 'Poppins', sans-serif;
     }
@@ -88,10 +94,19 @@
                             <h3 id="warna3">Selamat Datang</h3>
                         </div>
                         <div class="col-6 col-centered container margin-left-panel allborder-radius-custom" id="warna4">
-                            <h4>Membuat Aspirasi</h4>
+                            <form method="post" action=" <?= base_url('user/aspirasi'); ?>">
+                                <button type="sumbit" class="allborder-radius-custom" id="warna4">
+                                    <h4>Membuat Aspirasi</h4>
+                                </button>
+                            </form>
                         </div>
-                        <div class="col-6 col-centered container margin-left-panel allborder-radius-custom" id="warna4">
-                            <h4>Melihat Aspirasi</h4>
+                        <div class=" col-6 col-centered container margin-left-panel allborder-radius-custom"
+                            id="warna4">
+                            <form method="post" action="">
+                                <button type="sumbit" class="allborder-radius-custom" id="warna4">
+                                    <h4>Melihat Aspirasi</h4>
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
