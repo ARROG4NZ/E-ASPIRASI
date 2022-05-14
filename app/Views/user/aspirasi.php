@@ -43,6 +43,11 @@
         background: #E9E9E9;
     }
 
+    .image-size {
+        width: 50px;
+        height: 50px;
+    }
+
     h4 {
         text-align: center;
     }
@@ -66,17 +71,16 @@
 
 <body class="body-color">
     <!-- awal top bar -->
-    <div class="margin-topbar">
-        <nav id="warna-background-header">
-            <div class="container-fluid">
-                <div class="row align-items-center tinggi-top-bar">
-                    <div class="col-2 allborder-radius-custom" style="background-color: white; margin-left: 8%;">
-                        <h4>eASPIRASI</h4>
-                    </div>
+
+    <nav id="warna-background-header">
+        <div class="container-fluid">
+            <div class="row align-items-center tinggi-top-bar">
+                <div class="col-2 allborder-radius-custom" style="background-color: white; margin-left: 8%;">
+                    <h4>eASPIRASI</h4>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- akhir top bar -->
     <!-- isi dari body -->
     <div class="row margin-body gap">
@@ -89,12 +93,17 @@
     </div>
     <!-- hasil tampilan aspirasi -->
     <div class="row gap">
-        <div class="col-10 mx-auto my-4 p-3 allborder-radius-custom" id="warna">
+        <div class="col-10 mx-auto my-3 p-3 allborder-radius-custom" id="warna">
             <h5 class="ms-3">Lorem ipsum</h5>
-            <div>
-                <img src="/logo.jpg" />
+            <div class="row">
+                <img class="ms-3 col-1" style="width: 60px; height: 40px;" src=" /profile.png" />
+                <div class="col-1 my-2" style="font-size: 15px;">anonymous</div>
+                <img class="col-1 ms-2" style="width: 50px; height: 30px;" src=" /date.png" />
+                <div class="col-1 my-2" style="font-size: 12px;">10 hari yang lalu</div>
+                <img class="col-1" style="width: 50px; height: 30px;" src=" /status.png" />
+                <div class="col-1 my-2" style="font-size: 12px;">status</div>
             </div>
-            <div class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab, autem quibusdam
+            <div class="ms-3 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab, autem quibusdam
                 suscipit, eaque ut officiis facere veritatis illo inventore deleniti minus. Nihil, delectus autem
                 temporibus natus architecto deserunt aspernatur?</div>
         </div>
