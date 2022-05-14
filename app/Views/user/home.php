@@ -48,7 +48,7 @@
     }
 
     .margin-right-panel {
-        margin: 195px 0px 195px 0px
+        margin: 185px 0px 185px 0px
     }
 
     .container-custom {
@@ -112,9 +112,8 @@
                 <div class=" col-5 border-custom-right" id="warna2">
                     <div class="card-body">
                         <div class="container">
-                            <div class="col-6 col-centered container margin-right-panel allborder-radius-custom"
-                                style="background-color: white;">
-                                <h2 style="color: black;">eASPIRASI</h2>
+                            <div class="col-6 col-centered container margin-right-panel allborder-radius-custom">
+                                <img src="/logo.png" style="width: 170px; height: 60px;" />
                             </div>
                         </div>
                     </div>

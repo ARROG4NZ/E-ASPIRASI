@@ -75,8 +75,8 @@
     <nav id="warna-background-header">
         <div class="container-fluid">
             <div class="row align-items-center tinggi-top-bar">
-                <div class="col-2 allborder-radius-custom" style="background-color: white; margin-left: 8%;">
-                    <h4>eASPIRASI</h4>
+                <div class="col-2 allborder-radius-custom" style=" margin-left: 8%;">
+                    <img src="/logo.png" style="width: 170px; height: 60px;" />
                 </div>
             </div>
         </div>
