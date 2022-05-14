@@ -24,7 +24,7 @@
     }
 
     .tinggi-search-bar {
-        height: 50px;
+        height: 40px;
     }
 
     .margin-left {
@@ -35,16 +35,24 @@
         margin-left: 5px;
     }
 
-    h4 {
-        text-align: center;
+    .margin-body {
+        margin: 35px 0px 10px 0px;
     }
 
     .body-color {
         background: #E9E9E9;
     }
 
+    h4 {
+        text-align: center;
+    }
+
     p {
         text-align: center;
+    }
+
+    input {
+        border: 0px;
     }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -58,26 +66,40 @@
 
 <body class="body-color">
     <!-- awal top bar -->
-    <nav id="warna-background-header">
-        <div class="container-fluid">
-            <div class="row align-items-center tinggi-top-bar">
-                <div class="col-2 allborder-radius-custom margin-left">
-                    <h4>eASPIRASI</h4>
+    <div class="margin-topbar">
+        <nav id="warna-background-header">
+            <div class="container-fluid">
+                <div class="row align-items-center tinggi-top-bar">
+                    <div class="col-2 allborder-radius-custom" style="background-color: white; margin-left: 8%;">
+                        <h4>eASPIRASI</h4>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- akhir top bar -->
     <!-- isi dari body -->
-    <div class="row">
+    <div class="row margin-body gap">
+        <form action="" method="post"></form>
         <div class="col-1"></div>
-        <div class="col-8 allborder-radius-custom tinggi-search-bar" id="warna">
-            <p clas="align-self-center">search bar</p>
+        <input class="col-8 py-2 mt-4 allborder-radius-custom tinggi-search-bar" id="warna" type="text"
+            placeholder="Cari aspirasi" name="cari_keywoard" />
+        <input class=" col-2 mt-4 ms-3 py-2 allborder-radius-custom tinggi-search-bar" id="warna" type="submit"
+            value="Cari" />
+    </div>
+    <!-- hasil tampilan aspirasi -->
+    <div class="row gap">
+        <div class="col-10 mx-auto my-4 p-3 allborder-radius-custom" id="warna">
+            <h5 class="ms-3">Lorem ipsum</h5>
+            <div>
+                <img src="/app/Views/user/Group 36.jpg" />
+            </div>
+            <div class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab, autem quibusdam
+                suscipit, eaque ut officiis facere veritatis illo inventore deleniti minus. Nihil, delectus autem
+                temporibus natus architecto deserunt aspernatur?</div>
         </div>
-        <div class="col-2 margin-left-2 allborder-radius-custom" id="warna">
-            <P>search button</P>
-        </div>
-
+        <!-- akhir dari hsail tampilan aspirasi -->
+        <!-- akhir dari body -->
     </div>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

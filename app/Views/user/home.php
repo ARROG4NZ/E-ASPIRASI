@@ -44,7 +44,7 @@
     }
 
     .margin-left-panel {
-        margin: 40px 0px 80px 0px;
+        margin: 35px 0px 75px 0px;
     }
 
     .margin-right-panel {
