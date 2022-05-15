@@ -1,0 +1,95 @@
+CRITICAL - 2022-05-15 00:58:20 --> Class "user" not found
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-15 00:58:21 --> Class "user" not found
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-15 00:58:23 --> Class "user" not found
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-15 00:58:32 --> Class "user" not found
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-15 00:58:45 --> Class "user" not found
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-15 00:59:14 --> Controller or its method is not found: user::aspirasi
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Helpers\url_helper.php(535): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('user', 'aspirasi')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\home.php(104): url_to('user::aspirasi')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#11 {main}
+CRITICAL - 2022-05-15 01:00:09 --> Controller or its method is not found: user::aspirasi
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Helpers\url_helper.php(535): CodeIgniter\Router\Exceptions\RouterException::forControllerNotFound('user', 'aspirasi')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\home.php(104): url_to('user::aspirasi')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/home', Array, true)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(5): view('user/home')
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->index()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#11 {main}
+CRITICAL - 2022-05-15 01:03:38 --> Undefined constant "App\Controllers\hallllo"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-15 01:03:48 --> Undefined constant "App\Controllers\hallllo"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}

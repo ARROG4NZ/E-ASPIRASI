@@ -45,7 +45,7 @@
         <div class="container-fluid">
             <div class="row align-items-center tinggi-top-bar">
                 <div class="col-2 allborder-radius-custom" style=" margin-left: 8%;">
-                    <form method="post" action="">
+                    <form method="post" action="<?= base_url('user/') ?>">
                         <input type="image" class="my-auto" src="/logo.png" style="width: 170px; height: 60px;"
                             alt="Sumbit button">
                     </form>
@@ -56,7 +56,7 @@
     <!-- akhir top bar -->
     <!-- isi dari body -->
     <div class="row gap">
-        <form action="" class="row mt-4" method="post">
+        <form action="<?= base_url('user/setelah_membuat'); ?> " class="row mt-4" method="post">
             <label style="margin-left:8%;"><b>Nama</b></label>
             <input class="col-10 py-2 mt-3 mx-auto allborder-radius-custom tinggi-name-bar" id="warna" type="text"
                 placeholder="Annonymus" name="nama" style="border: 0px;" />
@@ -65,7 +65,7 @@
                 placeholder="aspirasi" name="aspirasi" style="border: 0px; height: 180px;"></textarea>
             <div class="form-group">
                 <input class="mt-4 allborder-radius-custom" id="warna-background-header" type="submit" value="Cari"
-                    style="height:40px; width:200px; margin-left: 45%;" />
+                    style="height:40px; width:200px; margin-left: 45%; border: 0px;" />
             </div>
 
         </form>

@@ -10,5 +10,8 @@ class user extends BaseController{
     public function membuat_aspirasi(){
         return view('user/membuat_aspirasi');
     }
+    public function setelah_membuat(){
+        return view('user/setelah_membuat');
+    }
 }
 ?>
