@@ -37,6 +37,7 @@ $routes->setAutoRoute(true);
 $routes->get('/','user::index');
 $routes->get('/aspirasi','user::aspirasi');
 $routes->get('/coba','user::aspirasi');
+$routes->get('/memnbuat_aspirasi','user::membuat_aspirasi');
 
 /*
  * --------------------------------------------------------------------

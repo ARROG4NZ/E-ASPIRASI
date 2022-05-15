@@ -76,7 +76,9 @@
         <div class="container-fluid">
             <div class="row align-items-center tinggi-top-bar">
                 <div class="col-2 allborder-radius-custom" style=" margin-left: 8%;">
-                    <img src="/logo.png" style="width: 170px; height: 60px;" />
+                    <form method="post" action="">
+                        <input type="image" src="/logo.png" style="width: 170px; height: 60px;" alt="Sumbit button">
+                    </form>
                 </div>
             </div>
         </div>
@@ -84,12 +86,13 @@
     <!-- akhir top bar -->
     <!-- isi dari body -->
     <div class="row margin-body gap">
-        <form action="" method="post"></form>
-        <div class="col-1"></div>
-        <input class="col-8 py-2 mt-4 allborder-radius-custom tinggi-search-bar" id="warna" type="text"
-            placeholder="Cari aspirasi" name="cari_keywoard" />
-        <input class=" col-2 mt-4 ms-3 py-2 allborder-radius-custom tinggi-search-bar" id="warna" type="submit"
-            value="Cari" />
+        <form action="" class="row py-2 mt-4" method="post">
+            <div class="col-1"></div>
+            <input class="col-8 mt-4 ms-3 allborder-radius-custom tinggi-search-bar" id="warna" type="text"
+                placeholder="Cari aspirasi" name="cari_keywoard" />
+            <input class=" col-2 mt-4 ms-3 py-2 allborder-radius-custom tinggi-search-bar" id="warna" type="submit"
+                value="Cari" />
+        </form>
     </div>
     <!-- hasil tampilan aspirasi -->
     <div class="row gap">
