@@ -7,58 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eASPIRASI</title>
     <style>
-    #warna-background-header {
-        background-color: #D1484D;
-    }
-
-    #warna {
-        background-color: white;
-    }
-
-    .allborder-radius-custom {
-        border-radius: 30px;
-    }
-
+    /* style header */
     .tinggi-top-bar {
         height: 80px;
     }
 
-    .tinggi-search-bar {
-        height: 40px;
+    #warna-background-header {
+        background-color: #D1484D;
     }
 
-    .margin-left {
-        margin-left: 30px;
-    }
-
-    .margin-left-2 {
-        margin-left: 5px;
-    }
-
-    .margin-body {
-        margin: 35px 0px 10px 0px;
+    /* akhir style header */
+    #warna {
+        background-color: white;
     }
 
     .body-color {
         background: #E9E9E9;
     }
 
-    .image-size {
-        width: 50px;
-        height: 50px;
+    .allborder-radius-custom {
+        border-radius: 30px;
     }
-
-    h4 {
-        text-align: center;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    input {
-        border: 0px;
-    }
+    </style>
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -77,24 +47,15 @@
             <div class="row align-items-center tinggi-top-bar">
                 <div class="col-2 allborder-radius-custom" style=" margin-left: 8%;">
                     <form method="post" action="<?= base_url('user/') ?>">
-                        <input type="image" src="/logo.png" style="width: 170px; height: 60px;" alt="Sumbit button">
+                        <input type="image" class="my-auto" src="/logo.png" style="width: 170px; height: 60px;"
+                            alt="Sumbit button">
                     </form>
                 </div>
             </div>
         </div>
     </nav>
     <!-- akhir top bar -->
-    <!-- isi dari body -->
-    <div class="row margin-body gap">
-        <form action="" class="row py-2 mt-4" method="post">
-            <div class="col-1"></div>
-            <input class="col-8 mt-4 ms-3 allborder-radius-custom tinggi-search-bar" id="warna" type="text"
-                placeholder="Cari aspirasi" name="cari_keywoard" />
-            <input class=" col-2 mt-4 ms-3 py-2 allborder-radius-custom tinggi-search-bar" id="warna" type="submit"
-                value="Cari" />
-        </form>
-    </div>
-    <!-- hasil tampilan aspirasi -->
+    <!-- body -->
     <div class="row gap">
         <div class="col-10 mx-auto my-3 p-3 allborder-radius-custom" id="warna">
             <h5 class="ms-3">Lorem ipsum</h5>
@@ -110,10 +71,23 @@
                 suscipit, eaque ut officiis facere veritatis illo inventore deleniti minus. Nihil, delectus autem
                 temporibus natus architecto deserunt aspernatur?</div>
         </div>
-        <!-- akhir dari hsail tampilan aspirasi -->
-        <!-- akhir dari body -->
     </div>
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    <div class="row gap">
+        <div class="col-6 mx-auto">
+            <h3 style="text-align: center;"><b>Kode Unik</b></h3>
+        </div>
+    </div>
+    <div class="row gap">
+        <div class="col-6 mx-auto allborder-radius-custom" id="warna">
+            <h1 style="text-align: center;">ASP-001</h1>
+        </div>
+    </div>
+    <form action="<?= base_url('user/'); ?> " class="row mt-4 gap" method="post">
+        <input class="col-4 mx-auto allborder-radius-custom" id="warna-background-header" type="submit" value="Selesai"
+            style="height:40px; width:200px; margin-left: 45%; border: 0px;" />
+    </form>
+    <!-- akhir dari body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
