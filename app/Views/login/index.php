@@ -11,7 +11,7 @@
 
     <style>
 body {
-    background-image: url('Group 37.png');
+    background-image: url('public/Group 37.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -121,7 +121,7 @@ button{
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center align-content-center" style="background: #F5CCCD;border-top-right-radius: 30px;border-bottom-right-radius: 30px;">
-                <div class="justify-content-center align-items-center align-content-center align-self-center" style="height: 219.333px;"><img class="d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start" src="assets/img/Group%2036.png" width="170px"></div>
+                <div class="justify-content-center align-items-center align-content-center align-self-center" style="height: 219.333px;"><img class="d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start" src="public/Group%2036.png" width="170px"></div>
             </div>
         </div>
     </div>
