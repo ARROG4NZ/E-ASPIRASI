@@ -58,18 +58,14 @@
     <!-- body -->
     <div class="row gap">
         <div class="col-10 mx-auto my-3 p-3 allborder-radius-custom" id="warna">
-            <h5 class="ms-3">Lorem ipsum</h5>
+            <h5 class="ms-3">Aspirasi</h5>
             <div class="row">
                 <img class="ms-3 col-1" style="width: 60px; height: 40px;" src=" /profile.png" />
                 <div class="col-1 my-2" style="font-size: 15px;">anonymous</div>
-                <img class="col-1 ms-2" style="width: 50px; height: 30px;" src=" /date.png" />
-                <div class="col-1 my-2" style="font-size: 12px;">10 hari yang lalu</div>
                 <img class="col-1" style="width: 50px; height: 30px;" src=" /status.png" />
-                <div class="col-1 my-2" style="font-size: 12px;">status</div>
+                <div class="col-1 my-2" style="font-size: 12px;"><?= $new_data['status'] ?></div>
             </div>
-            <div class="ms-3 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab, autem quibusdam
-                suscipit, eaque ut officiis facere veritatis illo inventore deleniti minus. Nihil, delectus autem
-                temporibus natus architecto deserunt aspernatur?</div>
+            <div class="ms-3 my-4"><?= $new_data['aspirasi'] ?> </div>
         </div>
     </div>
     <div class="row gap">
@@ -79,7 +75,7 @@
     </div>
     <div class="row gap">
         <div class="col-6 mx-auto allborder-radius-custom" id="warna">
-            <h1 style="text-align: center;">ASP-001</h1>
+            <h1 style="text-align: center;"><?= $new_data['kode_unik'] ?></h1>
         </div>
     </div>
     <form action="<?= base_url('user/'); ?> " class="row mt-4 gap" method="post">

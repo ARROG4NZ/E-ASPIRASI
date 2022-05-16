@@ -96,22 +96,7 @@
         </form>
     </div>
     <!-- akhir search bar -->
-    <!-- hasil tampilan aspirasi -->
-    <div class="row gap">
-        <div class="col-10 mx-auto my-3 p-3 allborder-radius-custom" id="warna">
-            <h5 class="ms-3">Aspirasi</h5>
-            <div class="row">
-                <img class="ms-3 col-1" style="width: 60px; height: 40px;" src=" /profile.png" />
-                <div class="col-1 my-2" style="font-size: 15px;">anonymous</div>
-                <img class="col-1 ms-2" style="width: 50px; height: 30px;" src=" /date.png" />
-                <div class="col-1 my-2" style="font-size: 12px;"><?= $data['date'] ?></div>
-                <img class="col-1" style="width: 50px; height: 30px;" src=" /status.png" />
-                <div class="col-1 my-2" style="font-size: 12px;"><?= $data['status'] ?> </div>
-            </div>
-            <div class="ms-3 my-4"><?= $data['aspirasi'] ?></div>
-        </div>
-        <!-- akhir dari hsail tampilan aspirasi -->
-        <!-- akhir dari body -->
+    <!-- akhir dari body -->
     </div>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

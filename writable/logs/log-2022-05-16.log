@@ -1,0 +1,1024 @@
+ERROR - 2022-05-16 00:11:21 --> No database selected
+CRITICAL - 2022-05-16 00:11:21 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:11:28 --> No database selected
+CRITICAL - 2022-05-16 00:11:28 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:13:00 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/membuat_as...')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/membuat_as...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:13:03 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:13:15 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xammp 2\\htdo...')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+ERROR - 2022-05-16 00:13:36 --> No database selected
+CRITICAL - 2022-05-16 00:13:36 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:15:20 --> No database selected
+CRITICAL - 2022-05-16 00:15:20 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:03 --> No database selected
+CRITICAL - 2022-05-16 00:16:03 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:13 --> No database selected
+CRITICAL - 2022-05-16 00:16:13 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:29 --> No database selected
+CRITICAL - 2022-05-16 00:16:29 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:36 --> No database selected
+CRITICAL - 2022-05-16 00:16:36 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:38 --> No database selected
+CRITICAL - 2022-05-16 00:16:38 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:16:49 --> No database selected
+CRITICAL - 2022-05-16 00:16:49 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:19:04 --> No database selected
+CRITICAL - 2022-05-16 00:19:04 --> Attempt to read property "kode_unik" on bool
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+ERROR - 2022-05-16 00:19:56 --> No database selected
+CRITICAL - 2022-05-16 00:19:56 --> No database selected
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(`id`...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`id`...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`id`...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`id`...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#11 {main}
+ERROR - 2022-05-16 00:20:50 --> No database selected
+CRITICAL - 2022-05-16 00:20:50 --> No database selected
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(`id`...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`id`...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`id`...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`id`...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#11 {main}
+CRITICAL - 2022-05-16 00:22:33 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode_unik
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:31:23 --> Undefined property: App\Controllers\user::$db
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 39)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:31:46 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode_unik
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:36:55 --> Undefined property: stdClass::$kode_unik
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:41:13 --> Call to undefined method App\Models\aspirasimodel::getRow
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:41:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 00:43:44 --> Call to undefined method App\Models\aspirasimodel::getRowArray
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): CodeIgniter\Model->__call('getRowArray', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:44:42 --> Cannot use object of type App\Models\aspirasimodel as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 00:50:19 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('kode_unik')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 00:50:47 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('kode_unik')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 00:53:31 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode_unik
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 40)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 00:59:14 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:03:17 --> Empty statement is given for the field `Select`
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(464): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(405): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->selectMax()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(13): CodeIgniter\Model->__call('selectMax', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->getmax()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 01:03:39 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:03:44 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:04:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode_unik
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 41)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:08:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findColumn()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:19:36 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('kode_unik')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(15): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+CRITICAL - 2022-05-16 01:21:40 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('table_aspirasi')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(15): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+CRITICAL - 2022-05-16 01:21:49 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('table_aspirasi')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(15): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+CRITICAL - 2022-05-16 01:21:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:27:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:28:34 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php on line 728
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('table_aspirasi')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(15): CodeIgniter\Model->__call('get', Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+CRITICAL - 2022-05-16 01:28:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:31:59 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:33:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:34:33 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:36:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 01:41:02 --> Call to undefined method App\Models\aspirasimodel::order_by
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(14): CodeIgniter\Model->__call('order_by', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 01:48:06 --> Call to undefined method App\Models\aspirasimodel::getAll
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(14): CodeIgniter\Model->__call('getAll', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 01:51:09 --> Call to undefined method App\Models\aspirasimodel::order_by
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(14): CodeIgniter\Model->__call('order_by', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 01:54:56 --> Cannot use object of type stdClass as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:56:50 --> Call to undefined method stdClass::getResult()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 01:59:51 --> Call to undefined method App\Models\aspirasimodel::getRow
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(15): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+ERROR - 2022-05-16 02:09:52 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:09:52 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:11:38 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:11:38 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:12:36 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:12:36 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:12:47 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:12:47 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:13:19 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:13:19 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(43): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:14:52 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:14:52 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(44): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:15:25 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:15:25 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(44): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:16:08 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:16:08 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(45): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:16:40 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:16:40 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(46): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:18:08 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:18:08 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(46): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:21:11 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:21:11 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(46): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+CRITICAL - 2022-05-16 02:22:15 --> Attempt to read property "kode_unik" on array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Models\aspirasimodel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xammp 2\\htdo...', 20)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(39): App\Models\aspirasimodel->createcode()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+ERROR - 2022-05-16 02:22:23 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:22:23 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(46): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:26:05 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:26:05 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(44): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:26:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:26:55 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(45): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:29:40 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:29:40 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(46): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:31:18 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:31:18 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(44): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+ERROR - 2022-05-16 02:33:30 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-16 02:33:30 --> Unknown column 'created_at' in 'field list'
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(44): CodeIgniter\Model->insert(Array)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->membuat_aspirasi_proses()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#10 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#13 {main}
+CRITICAL - 2022-05-16 02:57:43 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php on line 51
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Object(stdClass))
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 02:58:30 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php on line 51
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Object(stdClass))
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 02:58:32 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php on line 51
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Object(stdClass))
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 02:58:38 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php on line 51
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Object(stdClass))
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-16 02:59:43 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 66)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:02:15 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 59)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:02:20 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 59)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:04:01 --> compact(): Undefined variable $asp-005
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'D:\\xammp 2\\htdo...', 51)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): compact(Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 03:04:56 --> Cannot access offset of type string on string
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-16 03:09:09 --> Cannot access offset of type string on string
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-16 03:12:30 --> Undefined constant "App\Controllers\aku"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 03:12:48 --> Undefined constant "App\Controllers\aku"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 03:13:25 --> Cannot access offset of type string on string
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-16 03:14:36 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 59)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:16:06 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 59)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:17:22 --> Undefined variable $row
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 66)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:18:02 --> compact(): Undefined variable $$new_data
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'D:\\xammp 2\\htdo...', 51)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): compact('$new_data')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 03:18:14 --> Undefined variable $row
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\setelah_membuat.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 66)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/setelah_me...', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(51): view('user/setelah_me...', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->setelah_membuat()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:21:51 --> Invalid file: user/aspriasi.php
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/aspriasi.p...')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/aspriasi', Array, true)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(26): view('user/aspriasi', Array)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
+CRITICAL - 2022-05-16 03:22:51 --> Cannot use object of type mysqli as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/aspirasi', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(26): view('user/aspirasi', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-16 03:23:32 --> Cannot use object of type mysqli as array
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user/aspirasi', Array, true)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(26): view('user/aspirasi', Array)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#9 {main}
+CRITICAL - 2022-05-16 03:24:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-16 03:31:39 --> compact(): Undefined variable $asp-003
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'D:\\xammp 2\\htdo...', 20)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(20): compact(Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 03:32:29 --> compact(): Undefined variable $asp-003
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'D:\\xammp 2\\htdo...', 21)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): compact(Array)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#7 {main}
+CRITICAL - 2022-05-16 03:32:53 --> Undefined variable $data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 100)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:33:46 --> Undefined variable $data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 109)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:36:07 --> Undefined variable $new_data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 109)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:36:13 --> Undefined variable $data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 109)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:36:46 --> Undefined variable $data
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 109)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}
+CRITICAL - 2022-05-16 03:39:23 --> Undefined array key "timestamp"
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xammp 2\\htdo...', 107)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}

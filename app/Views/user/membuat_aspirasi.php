@@ -56,13 +56,13 @@
     <!-- akhir top bar -->
     <!-- isi dari body -->
     <div class="row gap">
-        <form action="<?= base_url('user/setelah_membuat'); ?> " class="row mt-4" method="post">
+        <form action="<?= base_url('user/membuat_aspirasi_proses'); ?> " class="row mt-4" method="post">
             <label style="margin-left:8%;"><b>Nama</b></label>
             <input class="col-10 py-2 mt-3 mx-auto allborder-radius-custom tinggi-name-bar" id="warna" type="text"
                 placeholder="Annonymus" name="nama" style="border: 0px;" />
             <label class="mt-2" style="margin-left:8%;"><b>Aspirasi</b></label>
             <textarea class="col-10 py-2 mt-3 mx-auto allborder-radius-custom" id="warna" type="text"
-                placeholder="aspirasi" name="aspirasi" style="border: 0px; height: 180px;"></textarea>
+                placeholder="aspirasi" name="aspirasi" style="border: 0px; height: 180px;" required></textarea>
             <div class="form-group">
                 <input class="mt-4 allborder-radius-custom" id="warna-background-header" type="submit" value="Cari"
                     style="height:40px; width:200px; margin-left: 45%; border: 0px;" />
