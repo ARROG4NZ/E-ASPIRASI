@@ -16,7 +16,7 @@ class Login extends BaseController{
 
         $cek = $madmin->get_data($username, $password);
 
-        if (($cek['username'] == $username) && ($cek['password'] == $password))
+        if ((isset($cek['username']) == $username) && (isset($cek['password']) == $password))
         {
             session()->set('username', $cek['username']);
             session()->set('nama', $cek['nama']);
