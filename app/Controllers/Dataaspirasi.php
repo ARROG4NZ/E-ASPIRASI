@@ -1,6 +1,9 @@
+
 <?php
 
 namespace App\Controllers;
+
+use App\Models\m_aspirasi;
 
 class dataaspirasi extends BaseController
 {
@@ -10,7 +13,8 @@ class dataaspirasi extends BaseController
          session()->setFlashdata('gagal','Anda belum login');
          return redirect()->to(base_url('login'));
       }
-      return view('coba');
+      $dataaspirasi = new m_aspirasi();
+      $data = $dataaspirasi->getallaspriasi();
+      var_dump('data');
    }
-
 }
