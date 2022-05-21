@@ -239,8 +239,9 @@
                             <td>Anonymus</td>
                             <td><?= $row['aspirasi']; ?></td>
                             <td class="text-center">
-                                <button type="button" class="btn btn-edit">Edit</button>
-                                <button type="button" class="btn btn-hapus">Hapus</button>
+                                <a href="<?= base_url('dataaspirasi/delete/' . $row['kode_unik']); ?>" type="button"
+                                    class="btn btn-edit">Hapus</a>
+                                <button type="button" class="btn btn-hapus">Edit</button>
                             </td>
                         </tr>
                         <?php 

@@ -33,7 +33,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/login', 'login::index');
 $routes->get('setting/','setting::index');
+// $routes->get('dataaspirasi','dataaspriasi::index');
 $routes->get('dataaspirasi/logout','dataaspirasi::logout');
+$routes->get('dataapirasi/delete/(:num)','dataaspirasi::delete/$1');
 // $routes->get('/','coba::index');
 
 /*

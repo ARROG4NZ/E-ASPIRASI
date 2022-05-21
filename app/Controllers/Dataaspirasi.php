@@ -18,6 +18,14 @@ class dataaspirasi extends BaseController
      
       
    }
+   public function delete($kode_unik){
+      $dataaspirasi = new m_aspirasi();
+      $del = $dataaspirasi->delete($kode_unik);
+      $session = session();
+      $session->setFlashdata("success", "Member berhasil di hapus");
+      return redirect()->to(base_url('dataaspirasi'));
+ 
+   }
    public function logout()
     {
         session()->destroy();
