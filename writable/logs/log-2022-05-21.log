@@ -11,3 +11,13 @@ Main connection [MySQLi]: Access denied for user ''@'localhost' (using password:
 #7 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
 #9 {main}
+CRITICAL - 2022-05-21 01:41:46 --> Invalid file: user.php
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#2 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\Dataaspirasi.php(17): view('user', Array)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\dataaspirasi->index()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataaspirasi))
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#8 {main}
