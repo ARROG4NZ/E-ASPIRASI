@@ -14,7 +14,7 @@ class dataaspirasi extends BaseController
       }
       $dataaspirasi = new m_aspirasi();
       $data = $dataaspirasi->getallaspriasi();
-      var_dump('data');
+      var_dump($data);
    }
 
 }
