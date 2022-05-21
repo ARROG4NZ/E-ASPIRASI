@@ -18,8 +18,13 @@ class Login extends BaseController{
 
         if ((isset($cek['username']) == $username) && (isset($cek['password']) == $password))
         {
-            session()->set('username', $cek['username']);
-            session()->set('nama', $cek['nama']);
+            // session()->set('username', $cek['username']);
+            // session()->set('nama', $cek['nama']);
+              session()->set([
+                    'username' => $username,
+                    'password' => $password,
+                    'logged_in' => TRUE
+                ]);
             return redirect()->to(base_url('dataaspirasi'));
         } 
         else{

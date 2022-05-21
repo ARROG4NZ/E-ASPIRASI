@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/login', 'login::index');
+$routes->get('setting/','setting::index');
+$routes->get('dataaspirasi/logout','dataaspirasi::logout');
 // $routes->get('/','coba::index');
 
 /*
