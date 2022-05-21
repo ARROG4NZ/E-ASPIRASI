@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Controllers;
@@ -16,5 +17,4 @@ class dataaspirasi extends BaseController
       $data = $dataaspirasi->getallaspriasi();
       var_dump('data');
    }
-
 }
