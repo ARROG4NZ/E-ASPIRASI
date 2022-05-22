@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\m_setting;
+
 class setting extends BaseController
 {
     public function index()
