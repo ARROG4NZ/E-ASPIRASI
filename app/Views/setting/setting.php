@@ -181,7 +181,7 @@
                 <div class="left-sidebar">
                     <div class="text-center" style="margin-top: 30px;">
                         <img src="profile.png" width="70px" height="70px" class="mr-2" style="border-radius: 50%;">
-                        <span>Admin</span>
+                        <span><?= session()->get('username'); ?></span>
                     </div>
                     <hr>
                     <ul class="nav flex-column sidebar-nav" style="margin-top: 60px;">
