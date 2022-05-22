@@ -227,7 +227,7 @@
                             <th scope="col" width="80px">NO</th>
                             <th scope="col">Nama Aspirator</th>
                             <th scope="col">Isi Aspirasi</th>
-                            <th scope="col" width="200px">ACTION</th>
+                            <th scope="col" width="300px">ACTION</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -240,8 +240,11 @@
                             <td><?= $row['aspirasi']; ?></td>
                             <td class="text-center">
                                 <a href="<?= base_url('dataaspirasi/delete/' . $row['kode_unik']); ?>" type="button"
-                                    class="btn btn-edit">Hapus</a>
-                                <button type="button" class="btn btn-hapus">Edit</button>
+                                    class="btn btn-hapus">Hapus</a>
+                                <a href="<?= base_url('dataaspirasi/diterima/' . $row['kode_unik']); ?>" type="button" 
+                                    class="btn btn-edit">Diterima</a>
+                                <a href="<?= base_url('dataaspirasi/ditolak/' . $row['kode_unik']); ?>" type="button" 
+                                    class="btn btn-edit">Ditolak</a>
                             </td>
                         </tr>
                         <?php 
