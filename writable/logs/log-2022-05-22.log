@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-22 06:19:23 --> Trying to access array offset on value of type null
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Views\user\aspirasi.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xammp 2\\htdo...', 107)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(210): include('D:\\xammp 2\\htdo...')
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\Common.php(1089): CodeIgniter\View\View->render('/user/aspirasi', Array, true)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\user.php(21): view('/user/aspirasi', Array)
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\user->aspirasi_proses()
+#6 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#10 {main}

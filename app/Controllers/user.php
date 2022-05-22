@@ -16,9 +16,13 @@ class user extends BaseController{
         //mendapatkan kode unik dari view
         $kode_unik = $this->request->getVar('cari_keywoard');
        
+        if($aspirasimodel->getsearchdata($kode_unik)){
         $data = $aspirasimodel->getsearchdata($kode_unik);
         // var_dump($data);
         return view('/user/aspirasi',compact('data'));
+        }else {
+            return view('user/aspirasi_awal');
+        }
         
     }
     public function membuat_aspirasi(){

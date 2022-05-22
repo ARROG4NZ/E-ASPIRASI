@@ -214,9 +214,9 @@
             <div class="setting text-center">
                 <img src="profile.png" width="140px">
 
-                <form method="POST" action="<?= base_url('setting/changepass'); ?>"style="margin-top: 15px;">
+                <form method="POST" action="<?= base_url('setting/changepass'); ?>" style="margin-top: 15px;">
                     <div class="form-group">
-                        <input type="text" name="username" placeholder="Admin">
+                        <input type="text" name="username" placeholder="<?= session()->get('username'); ?> ">
                     </div>
                     <div class="form-group">
                         <input type="text" name="password_lama" placeholder="Password">
