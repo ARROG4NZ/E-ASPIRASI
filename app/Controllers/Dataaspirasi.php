@@ -26,6 +26,19 @@ class dataaspirasi extends BaseController
       return redirect()->to(base_url('dataaspirasi'));
  
    }
+   
+      public function diterima($kode_unik){
+      $dataaspirasi = new m_aspirasi();
+      $dataaspirasi->update($kode_unik, ['status' => "Aspirasi Diterima"]);
+      return redirect()->to(base_url('dataaspirasi'));
+   }
+
+   public function ditolak($kode_unik){
+      $dataaspirasi = new m_aspirasi();
+      $dataaspirasi->update($kode_unik, ['status' => "Aspirasi Ditolak"]);
+      return redirect()->to(base_url('dataaspirasi'));
+   }
+   
    public function logout()
     {
         session()->destroy();
