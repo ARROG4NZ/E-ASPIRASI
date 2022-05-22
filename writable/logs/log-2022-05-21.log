@@ -24,3 +24,58 @@ CRITICAL - 2022-05-21 01:41:46 --> Invalid file: user.php
 CRITICAL - 2022-05-21 02:04:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
 #0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
 #1 {main}
+CRITICAL - 2022-05-21 23:07:32 --> Call to undefined method App\Models\m_setting::getuser
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(16): CodeIgniter\Model->__call('getuser', Array)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-21 23:07:50 --> Undefined property: App\Controllers\setting::$session
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 28)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-21 23:09:18 --> Undefined variable $session
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xammp 2\\htdo...', 17)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-21 23:09:34 --> Undefined property: App\Controllers\setting::$session
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 28)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-21 23:11:31 --> Undefined property: App\Controllers\setting::$session
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 28)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}
+CRITICAL - 2022-05-21 23:12:08 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#5 {main}
+CRITICAL - 2022-05-21 23:24:28 --> Undefined property: App\Controllers\setting::$session
+#0 D:\xammp 2\htdocs\E-ASPIRASI\app\Controllers\setting.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xammp 2\\htdo...', 29)
+#1 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(832): App\Controllers\setting->changepass()
+#2 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\setting))
+#3 D:\xammp 2\htdocs\E-ASPIRASI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp 2\htdocs\E-ASPIRASI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xammp 2\htdocs\E-ASPIRASI\system\Commands\Server\rewrite.php(43): require_once('D:\\xammp 2\\htdo...')
+#6 {main}

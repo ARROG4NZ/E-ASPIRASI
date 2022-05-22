@@ -13,14 +13,21 @@ class setting extends BaseController
     
     public function changepass(){
         $m_setting = new m_setting();
-        $change = $m_setting->getuser($this->session->userdata('username'));
-        
-        if($this->input->post('password_lama') == $change->password){
-            if($this->$m_setting->changepass()){
-                $this->session->set_flashdata('msg', 'password berhasil diganti');
-            }
-            else{$this->session->set_flashdata('msg', 'password gagal diganti');}
+        $username = session()->get('username');
+        $password = session()->get('password');
+        if($this->request->getPost('password_lama') == session()->get('password')){
+             $m_setting->update(session()->get('username'),[
+               'password' => $this->request->getPost('password_baru')
+            ]); 
+            session()->set([
+                    'username' => $username,
+                    'password' => $this->request->getPost('password_baru'),
+                    'logged_in' => TRUE
+                ]); 
         }
-        else{$this->session->set_flashdata('msg', 'password lama salah');}
+        else{
+        session()->setFlashdata('msg', 'password lama salah');
+        }
+        return redirect()->to(base_url(('setting')));
     }
 }
