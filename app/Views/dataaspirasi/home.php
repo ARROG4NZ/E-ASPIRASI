@@ -221,12 +221,17 @@
             </div>
             <!-- <hr> -->
             <div class="table-responsive">
+                <?php if (!empty(session()->getFlashdata('msg'))) : ?>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <?php echo session()->getFlashdata('msg'); ?>
+                </div> <?php endif;?>
                 <table class="table rs-table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col" width="80px">NO</th>
-                            <th scope="col">Nama Aspirator</th>
+                            <th scope="col" width="50px">NO</th>
+                            <th scope="col" width="150px">Nama Aspirator</th>
                             <th scope="col">Isi Aspirasi</th>
+                            <th scope="col" width="100px">Status</th>
                             <th scope="col" width="300px">ACTION</th>
                         </tr>
                     </thead>
