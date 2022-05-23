@@ -227,6 +227,7 @@
                             <th scope="col" width="80px">NO</th>
                             <th scope="col">Nama Aspirator</th>
                             <th scope="col">Isi Aspirasi</th>
+                            <th scope="col" width="100px">Status</th>
                             <th scope="col" width="300px">ACTION</th>
                         </tr>
                     </thead>
@@ -240,6 +241,8 @@
                             <td>
                                 <p><?= substr($row['aspirasi'], 0,50); ?></p>
                             </td>
+                            <td><?= $row['aspirasi']; ?></td>
+                            <td><?= $row['status']; ?></td>
                             <td class="text-center">
                                 <a href="<?= base_url('dataaspirasi/delete/' . $row['kode_unik']); ?>" type="button"
                                     class="btn btn-hapus">Hapus</a>
