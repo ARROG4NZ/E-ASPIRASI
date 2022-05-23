@@ -21,8 +21,7 @@ class dataaspirasi extends BaseController
    public function delete($kode_unik){
       $dataaspirasi = new m_aspirasi();
       $del = $dataaspirasi->delete($kode_unik);
-      $session = session();
-      $session->setFlashdata("success", "Member berhasil di hapus");
+      session()->setFlashdata("msg", "Aspirasi berhasil dihapus");
       return redirect()->to(base_url('dataaspirasi'));
  
    }
@@ -30,12 +29,14 @@ class dataaspirasi extends BaseController
       public function diterima($kode_unik){
       $dataaspirasi = new m_aspirasi();
       $dataaspirasi->update($kode_unik, ['status' => "Aspirasi Diterima"]);
+      session()->setFlashdata("msg", "Berhasil mengubah status aspirasi menjadi diterima");
       return redirect()->to(base_url('dataaspirasi'));
    }
 
    public function ditolak($kode_unik){
       $dataaspirasi = new m_aspirasi();
       $dataaspirasi->update($kode_unik, ['status' => "Aspirasi Ditolak"]);
+      session()->setFlashdata("msg", "Berhasil mengubah status aspirasi menjadi ditolak");
       return redirect()->to(base_url('dataaspirasi'));
    }
    
