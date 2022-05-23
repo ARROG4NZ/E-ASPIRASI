@@ -223,7 +223,7 @@
             <div class="table-responsive">
                 <?php if (!empty(session()->getFlashdata('msg'))) : ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <?php echo session()->getFlashdata('msg'); ?>
+                    <?php echo session()->getFlashdata('msg'); ?>
                 </div> <?php endif;?>
                 <table class="table rs-table-bordered">
                     <thead>
@@ -244,6 +244,9 @@
                             <td>Anonymus</td>
                             <td>
                                 <p><?= substr($row['aspirasi'], 0,50); ?></p>
+                            </td>
+                            <td>
+                                <?= $row['status']; ?>
                             </td>
                             <td class="text-center">
                                 <a href="<?= base_url('dataaspirasi/delete/' . $row['kode_unik']); ?>" type="button"
