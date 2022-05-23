@@ -95,6 +95,13 @@
                 value="Cari" />
         </form>
     </div>
+    <div class="row margin-body gap">
+        <?php if (!empty(session()->getFlashdata('gagal'))) : ?>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <?php echo session()->getFlashdata('gagal'); ?>
+        </div>
+        <?php endif; ?>
+    </div>
     <!-- akhir search bar -->
     <!-- akhir dari body -->
     </div>

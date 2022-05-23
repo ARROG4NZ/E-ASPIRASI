@@ -7,6 +7,7 @@ class user extends BaseController{
     public function index (){
         return view('user/home');
     }
+    //mencari aspirasi
     public function aspirasi(){
         return view('user/aspirasi_awal');
     }
@@ -21,6 +22,7 @@ class user extends BaseController{
         // var_dump($data);
         return view('/user/aspirasi',compact('data'));
         }else {
+            session()->setFlashdata('gagal', 'Username / Password salah');
             return view('user/aspirasi_awal');
         }
         
@@ -35,7 +37,7 @@ class user extends BaseController{
         $aspirasi = new aspirasimodel();
         //generate kodee unik
         $code = $aspirasi->createcode();
-        $boo = 'salah';
+        $boo = 'diproses';
         var_dump($aspirasi->insert([ 
             'kode_unik' => $code,
             'aspirasi'  => $asp,
