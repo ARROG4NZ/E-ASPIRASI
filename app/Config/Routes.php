@@ -35,6 +35,8 @@ $routes->get('/login', 'login::index');
 $routes->get('setting/','setting::index');
 $routes->get('dataaspirasi/logout','dataaspirasi::logout');
 $routes->get('dataapirasi/delete/(:num)','dataaspirasi::delete/$1');
+$routes->get('/e-ASPIRASI/public/login','login::index');
+
 // user
 $routes->get('/','user::index');
 $routes->get('/aspirasi','user::aspirasi');

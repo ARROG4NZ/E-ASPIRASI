@@ -237,7 +237,9 @@
                         <tr>
                             <td><?= $angka; ?> </td>
                             <td>Anonymus</td>
-                            <td><?= $row['aspirasi']; ?></td>
+                            <td>
+                                <p><?= substr($row['aspirasi'], 0,50); ?></p>
+                            </td>
                             <td class="text-center">
                                 <a href="<?= base_url('dataaspirasi/delete/' . $row['kode_unik']); ?>" type="button"
                                     class="btn btn-hapus">Hapus</a>
