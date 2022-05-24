@@ -213,10 +213,7 @@
                     <h3 class="font-weight-bold">Data Aspirasi</h3>
                 </div>
 
-                <div class="search">
-                    Search
-                    <input type="text">
-                </div>
+
 
             </div>
             <!-- <hr> -->
